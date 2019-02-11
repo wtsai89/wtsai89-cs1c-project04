@@ -1,0 +1,6 @@
+lounge,Solo
+lounge,Get Happy
+lounge,Stairway To The Stars
+lounge,Traffic
+favorites,Shadows - Original
+road trip,Tom's Diner

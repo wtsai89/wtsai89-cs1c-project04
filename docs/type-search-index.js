@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"queues","l":"Jukebox"},{"p":"cs1c","l":"MillionSongDataSubset"},{"p":"queues","l":"MyTunes"},{"p":"queues","l":"Queue"},{"p":"queues","l":"Queue.Node"},{"p":"queues","l":"Queue.QueueIterator"},{"p":"cs1c","l":"SongEntry"},{"p":"cs1c","l":"TimeConverter"}]

@@ -14,7 +14,7 @@ import java.util.Scanner;
  * Enqueues and dequeues SongEntry objects from each playlist. 
  * Simulates playing each song and finally checks the state of each playlist.
  *  
- * @author Foothill College, [YOUR NAME HERE]
+ * @author Foothill College, William Tsai
  */
 public class MyTunes 
 {
@@ -52,7 +52,7 @@ public class MyTunes
 		// For example, if the file contains line: 
 		// favorites,title
 		// Then the first song found that equals the title will be placed in the favorites playlist.
-		jukebox.fillPlaylists(requestFile, allSongs);	
+		jukebox.fillPlaylists(requestedFile, allSongs);
 
 		favoritePL = jukebox.getFavoritePL();
 		loungePL = jukebox.getLoungePL();
@@ -116,11 +116,11 @@ public class MyTunes
 		final String TESTFILE = "resources/tunes.txt";	// Directory path for plain-text file
 
 		// NOTE: An example of testing the boundary condition where we dequeue from empty playlist
-		//final String TESTFILE = "resources/tunes_truncated.txt";	
+		//final String TESTFILE = "resources/tunes_truncated.txt";
 
 		// TODO:  Provide additional test input cases. That means your own tunes_CASE.txt input test file.
 		//        Clarify the purpose of each test case in your README.txt file.
-		//final String TESTFILE = "resources/tunes_??.txt;
+		//final String TESTFILE = "resources/tunes_emptyqueue.txt";
 
 		// parses the JSON input file
 		MillionSongDataSubset msd = new MillionSongDataSubset(DATAFILE);

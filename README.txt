@@ -1,8 +1,38 @@
-// TODO: For every project create a README file at the top-level directory of 
-//       your project. Your README must include a list of .java files you are 
-//       submitting and a brief description of each. You may ignore IDE specific 
-//       files such as .gitignore 
+project folder:
+wtsai89-cs1c-project04/
 
-// NOTE: Alternatively you can create this file in Markdown format. 
-//       See the tutorial:
-//       https://guides.github.com/features/mastering-markdown/
+
+Brief description of submitted files:
+
+src/cs1c/MillionSongDataSubset.java
+    - Parses the music json file into an array
+
+src/cs1c/SongEntry.java
+    - song object
+
+src/cs1c/TimeConverter.java
+    - Converts duration into a string representation.
+
+src/queues/MyTunes
+    - main java file
+
+src/queues/Jukebox
+    - Manages three playlists in the Queue format
+
+src/queues/Queue
+    - Manage items in a singly linked list using the queue data structure
+
+resources/tunes.txt
+    - test file
+
+resources/tunes_truncated.txt
+    - test file
+
+resources/tunes_emptyqueue.txt
+    - test file
+
+resources/music_genre_subset.json
+    - music json file
+
+resources/RUN.txt
+    - output of MyTunes' class
